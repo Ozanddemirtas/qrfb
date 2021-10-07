@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:qrbla/pages/qr/generate_qr.dart';
 
 import 'pages/qr/qr_scanner.dart';
 
@@ -12,12 +13,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'QR Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      // ignore: prefer_const_constructors
-      home: QrScanner(),
-    );
+        title: 'QR Demo',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        // ignore: prefer_const_constructors
+        home: QrScanner());
   }
 }

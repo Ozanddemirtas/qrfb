@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors, duplicate_ignore
+
 import 'package:flutter/material.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 
@@ -12,27 +14,37 @@ class _QrScannerState extends State<QrScanner> {
   QRViewController? controller;
   Barcode? result;
   final GlobalKey qrKey = GlobalKey(debugLabel: 'QR');
+  int count = 0;
+  bool scanned = false;
 
   @override
   Widget build(BuildContext context) {
-    // ignore: prefer_const_constructors
     return Scaffold(
-      body: Column(
-        children: [
-          Expanded(flex: 4, child: _buildQrView(context)),
-        ],
+      body: SafeArea(
+        child: Stack(
+          children: [
+            Expanded(flex: 4, child: _buildQrView(context)),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Align(alignment: Alignment.topCenter, child: _result()),
+            ),
+            Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Align(
+                  alignment: Alignment.topCenter,
+                  child: Text(count.toString()),
+                )),
+          ],
+        ),
       ),
     );
   }
 
   Widget _buildQrView(BuildContext context) {
-    // For this example we check how width or tall the device is and change the scanArea and overlay accordingly.
-    var scanArea = (MediaQuery.of(context).size.width < 400 ||
-            MediaQuery.of(context).size.height < 400)
-        ? 150.0
-        : 300.0;
-    // To ensure the Scanner view is properly sizes after rotation
-    // we need to listen for Flutter SizeChanged notification and update controller
+    var scanArea = (MediaQuery.of(context).size.width < 500 ||
+            MediaQuery.of(context).size.height < 500)
+        ? 300.0
+        : 450.0;
     return QRView(
       key: qrKey,
       onQRViewCreated: _onQRViewCreated,
@@ -52,11 +64,27 @@ class _QrScannerState extends State<QrScanner> {
     controller.scannedDataStream.listen((Barcode scanData) {
       setState(() {
         result = scanData;
+        if (!scanned) {
+          scanned = true;
+          count++;
+        }
       });
-
-      scanData.code;
     });
   }
+
+  Widget _result() => Container(
+        height: 60,
+        width: 200,
+        decoration: BoxDecoration(
+          color: Colors.blueGrey,
+          borderRadius: BorderRadius.circular(30),
+        ),
+        child: Center(
+            child: Text(
+          result != null ? 'Result : ${result!.code} ' : 'Scan a Code ',
+          style: TextStyle(color: Colors.white),
+        )),
+      );
 
   @override
   void dispose() {
