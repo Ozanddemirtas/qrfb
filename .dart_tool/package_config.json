@@ -68,6 +68,18 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///C:/Users/ozand/OneDrive/Belgeler/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "js",
+      "rootUri": "file:///C:/Users/ozand/OneDrive/Belgeler/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "lints",
       "rootUri": "file:///C:/Users/ozand/OneDrive/Belgeler/flutter/.pub-cache/hosted/pub.dartlang.org/lints-1.0.1",
       "packageUri": "lib/",
@@ -88,6 +100,24 @@
     {
       "name": "path",
       "rootUri": "file:///C:/Users/ozand/OneDrive/Belgeler/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "qr",
+      "rootUri": "file:///C:/Users/ozand/OneDrive/Belgeler/flutter/.pub-cache/hosted/pub.dartlang.org/qr-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "qr_code_scanner",
+      "rootUri": "file:///C:/Users/ozand/OneDrive/Belgeler/flutter/.pub-cache/hosted/pub.dartlang.org/qr_code_scanner-0.5.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "qr_flutter",
+      "rootUri": "file:///C:/Users/ozand/OneDrive/Belgeler/flutter/.pub-cache/hosted/pub.dartlang.org/qr_flutter-4.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -152,7 +182,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-10-07T12:49:36.285222Z",
+  "generated": "2021-10-07T13:03:48.914128Z",
   "generator": "pub",
   "generatorVersion": "2.14.3"
 }
