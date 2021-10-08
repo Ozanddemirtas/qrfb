@@ -32,6 +32,24 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "cloud_firestore",
+      "rootUri": "file:///C:/Users/ozand/OneDrive/Belgeler/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-2.5.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "cloud_firestore_platform_interface",
+      "rootUri": "file:///C:/Users/ozand/OneDrive/Belgeler/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_platform_interface-5.4.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "cloud_firestore_web",
+      "rootUri": "file:///C:/Users/ozand/OneDrive/Belgeler/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-2.4.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "collection",
       "rootUri": "file:///C:/Users/ozand/OneDrive/Belgeler/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0",
       "packageUri": "lib/",
@@ -46,6 +64,24 @@
     {
       "name": "fake_async",
       "rootUri": "file:///C:/Users/ozand/OneDrive/Belgeler/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_core",
+      "rootUri": "file:///C:/Users/ozand/OneDrive/Belgeler/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_core_platform_interface",
+      "rootUri": "file:///C:/Users/ozand/OneDrive/Belgeler/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-4.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_core_web",
+      "rootUri": "file:///C:/Users/ozand/OneDrive/Belgeler/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-1.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -100,6 +136,12 @@
     {
       "name": "path",
       "rootUri": "file:///C:/Users/ozand/OneDrive/Belgeler/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///C:/Users/ozand/OneDrive/Belgeler/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -182,7 +224,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-10-07T13:03:48.914128Z",
+  "generated": "2021-10-08T09:39:51.373122Z",
   "generator": "pub",
   "generatorVersion": "2.14.3"
 }

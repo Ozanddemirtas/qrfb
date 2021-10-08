@@ -27,120 +27,182 @@
 19    <uses-feature android:name="android.hardware.camera" />
 19-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:7:5-60
 19-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:7:19-57
-20    <uses-feature android:name="android.hardware.camera.autofocus" />
+20    <uses-feature android:name="android.hardware.camera.autofocus" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 20-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:8:5-70
 20-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:8:19-67
-21    <uses-feature
-21-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:28:5-30:36
-22        android:name="android.hardware.camera.front"
-22-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:29:9-53
-23        android:required="false" />
-23-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:30:9-33
+21    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2562ea70dfdfec13b3abf39f278c87f6\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:13:5-79
+22-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2562ea70dfdfec13b3abf39f278c87f6\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:13:22-76
+23
 24    <uses-feature
-24-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:36:5-38:36
-25        android:name="android.hardware.camera.flash"
-25-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:37:9-53
+24-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:28:5-30:36
+25        android:name="android.hardware.camera.front"
+25-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:29:9-53
 26        android:required="false" />
-26-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:38:9-33
+26-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:30:9-33
 27    <uses-feature
-27-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:39:5-41:36
-28        android:name="android.hardware.screen.landscape"
-28-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:40:9-57
+27-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:36:5-38:36
+28        android:name="android.hardware.camera.flash"
+28-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:37:9-53
 29        android:required="false" />
-29-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:41:9-33
+29-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:38:9-33
 30    <uses-feature
-30-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:42:5-44:36
-31        android:name="android.hardware.wifi"
-31-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:43:9-45
+30-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:39:5-41:36
+31        android:name="android.hardware.screen.landscape"
+31-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:40:9-57
 32        android:required="false" />
-32-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:44:9-33
-33
-34    <application
-34-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:9:4-46:19
-35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-35-->[androidx.core:core:1.5.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\4d87ed05196533b5ec796c2b8988bfe8\core-1.5.0\AndroidManifest.xml:24:18-86
-36        android:debuggable="true"
-37        android:icon="@mipmap/ic_launcher"
-37-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:11:9-43
-38        android:label="qrbla" >
-38-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:10:9-30
-39        <activity
-39-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:12:9-40:20
-40            android:name="com.example.qrbla.MainActivity"
-40-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:13:13-41
-41            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-41-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:16:13-163
-42            android:hardwareAccelerated="true"
-42-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:17:13-47
-43            android:launchMode="singleTop"
-43-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:14:13-43
-44            android:theme="@style/LaunchTheme"
-44-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:15:13-47
-45            android:windowSoftInputMode="adjustResize" >
-45-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:18:13-55
-46
-47            <!--
-48                 Specifies an Android theme to apply to this Activity as soon as
-49                 the Android process has started. This theme is visible to the user
-50                 while the Flutter UI initializes. After that, this theme continues
-51                 to determine the Window background behind the Flutter UI.
-52            -->
-53            <meta-data
-53-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:23:13-26:17
-54                android:name="io.flutter.embedding.android.NormalTheme"
-54-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:24:15-70
-55                android:resource="@style/NormalTheme" />
-55-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:25:15-52
-56            <!--
-57                 Displays an Android View that continues showing the launch screen
-58                 Drawable until Flutter paints its first frame, then this splash
-59                 screen fades out. A splash screen is useful to avoid any visual
-60                 gap between the end of Android's launch screen and the painting of
-61                 Flutter's first frame.
-62            -->
-63            <meta-data
-63-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:32:13-35:17
-64                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-64-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:33:15-79
-65                android:resource="@drawable/launch_background" />
-65-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:34:15-61
-66
-67            <intent-filter>
-67-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:36:13-39:29
-68                <action android:name="android.intent.action.MAIN" />
-68-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:37:17-68
-68-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:37:25-66
+32-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:41:9-33
+33    <uses-feature
+33-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:42:5-44:36
+34        android:name="android.hardware.wifi"
+34-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:43:9-45
+35        android:required="false" />
+35-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:44:9-33
+36
+37    <application
+37-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:9:4-46:19
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.5.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2643c0da951f6321b4f592fba76c6428\core-1.5.0\AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:11:9-43
+41        android:label="qrbla" >
+41-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:10:9-30
+42        <activity
+42-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:12:9-40:20
+43            android:name="com.example.qrbla.MainActivity"
+43-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:13:13-41
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:16:13-163
+45            android:hardwareAccelerated="true"
+45-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:17:13-47
+46            android:launchMode="singleTop"
+46-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:14:13-43
+47            android:theme="@style/LaunchTheme"
+47-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:15:13-47
+48            android:windowSoftInputMode="adjustResize" >
+48-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:18:13-55
+49
+50            <!--
+51                 Specifies an Android theme to apply to this Activity as soon as
+52                 the Android process has started. This theme is visible to the user
+53                 while the Flutter UI initializes. After that, this theme continues
+54                 to determine the Window background behind the Flutter UI.
+55            -->
+56            <meta-data
+56-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:23:13-26:17
+57                android:name="io.flutter.embedding.android.NormalTheme"
+57-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:24:15-70
+58                android:resource="@style/NormalTheme" />
+58-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:25:15-52
+59            <!--
+60                 Displays an Android View that continues showing the launch screen
+61                 Drawable until Flutter paints its first frame, then this splash
+62                 screen fades out. A splash screen is useful to avoid any visual
+63                 gap between the end of Android's launch screen and the painting of
+64                 Flutter's first frame.
+65            -->
+66            <meta-data
+66-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:32:13-35:17
+67                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+67-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:33:15-79
+68                android:resource="@drawable/launch_background" />
+68-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:34:15-61
 69
-70                <category android:name="android.intent.category.LAUNCHER" />
-70-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:38:17-76
-70-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:38:27-74
-71            </intent-filter>
-72        </activity>
-73        <!--
-74             Don't delete the meta-data below.
-75             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-76        -->
-77        <meta-data
-77-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:43:9-45:33
-78            android:name="flutterEmbedding"
-78-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:44:13-44
-79            android:value="2" />
-79-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:45:13-30
-80
-81        <activity
-81-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:47:9-53:63
-82            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-82-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:48:13-74
-83            android:clearTaskOnLaunch="true"
-83-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:49:13-45
-84            android:screenOrientation="sensorLandscape"
-84-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:50:13-56
-85            android:stateNotNeeded="true"
-85-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:51:13-42
-86            android:theme="@style/zxing_CaptureTheme"
-86-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:52:13-54
-87            android:windowSoftInputMode="stateAlwaysHidden" />
-87-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2d270d3ed13396fa5b8c3771a586e7a3\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:53:13-60
-88    </application>
-89
-90</manifest>
+70            <intent-filter>
+70-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:36:13-39:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:37:17-68
+71-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:37:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:38:17-76
+73-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:38:27-74
+74            </intent-filter>
+75        </activity>
+76        <!--
+77             Don't delete the meta-data below.
+78             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+79        -->
+80        <meta-data
+80-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:43:9-45:33
+81            android:name="flutterEmbedding"
+81-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:44:13-44
+82            android:value="2" />
+82-->C:\Users\ozand\Git\qrfb\android\app\src\main\AndroidManifest.xml:45:13-30
+83
+84        <service
+84-->[:cloud_firestore] C:\Users\ozand\Git\qrfb\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+85            android:name="com.google.firebase.components.ComponentDiscoveryService"
+85-->[:cloud_firestore] C:\Users\ozand\Git\qrfb\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+86            android:directBootAware="true"
+86-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\d743e2f135b4b07104c7861c96109c08\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+87            android:exported="false" >
+87-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2562ea70dfdfec13b3abf39f278c87f6\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:19:13-37
+88            <meta-data
+88-->[:cloud_firestore] C:\Users\ozand\Git\qrfb\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+89                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+89-->[:cloud_firestore] C:\Users\ozand\Git\qrfb\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[:cloud_firestore] C:\Users\ozand\Git\qrfb\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+91            <meta-data
+91-->[:firebase_core] C:\Users\ozand\Git\qrfb\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+92                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+92-->[:firebase_core] C:\Users\ozand\Git\qrfb\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:firebase_core] C:\Users\ozand\Git\qrfb\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2562ea70dfdfec13b3abf39f278c87f6\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:20:13-22:85
+95                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+95-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2562ea70dfdfec13b3abf39f278c87f6\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:21:17-111
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\2562ea70dfdfec13b3abf39f278c87f6\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:22:17-82
+97        </service>
+98
+99        <provider
+99-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\d743e2f135b4b07104c7861c96109c08\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+100            android:name="com.google.firebase.provider.FirebaseInitProvider"
+100-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\d743e2f135b4b07104c7861c96109c08\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+101            android:authorities="com.example.qrbla.firebaseinitprovider"
+101-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\d743e2f135b4b07104c7861c96109c08\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+102            android:directBootAware="true"
+102-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\d743e2f135b4b07104c7861c96109c08\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+103            android:exported="false"
+103-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\d743e2f135b4b07104c7861c96109c08\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+104            android:initOrder="100" />
+104-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\d743e2f135b4b07104c7861c96109c08\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+105
+106        <activity
+106-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\d43d6fcf17844ae20c77486c83fe6966\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+107            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+107-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\d43d6fcf17844ae20c77486c83fe6966\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+108            android:exported="false"
+108-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\d43d6fcf17844ae20c77486c83fe6966\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+109-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\d43d6fcf17844ae20c77486c83fe6966\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+110
+111        <meta-data
+111-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\0567fadfeac8c30ea568515537a0e8da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+112            android:name="com.google.android.gms.version"
+112-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\0567fadfeac8c30ea568515537a0e8da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+113            android:value="@integer/google_play_services_version" />
+113-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\0567fadfeac8c30ea568515537a0e8da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+114
+115        <activity
+115-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:47:9-53:63
+116            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+116-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:48:13-74
+117            android:clearTaskOnLaunch="true"
+117-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:49:13-45
+118            android:screenOrientation="sensorLandscape"
+118-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:50:13-56
+119            android:stateNotNeeded="true"
+119-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:51:13-42
+120            android:theme="@style/zxing_CaptureTheme"
+120-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:52:13-54
+121            android:windowSoftInputMode="stateAlwaysHidden" />
+121-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\ozand\.gradle\caches\transforms-2\files-2.1\e64df740ce736c8681f1720bdf20f0fe\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:53:13-60
+122    </application>
+123
+124</manifest>
